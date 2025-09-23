@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reset Password</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Reset Password</h2>
+    <form onsubmit="resetPassword(event)">
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="text" name="otp" placeholder="OTP" required>
+      <input type="password" name="newPassword" placeholder="New Password" required>
+      <button type="submit">Reset</button>
+    </form>
+  </div>
+</body>
+</html>

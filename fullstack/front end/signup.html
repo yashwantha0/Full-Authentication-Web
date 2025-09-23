@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Signup</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Signup</h2>
+    <form onsubmit="signupUser(event)">
+      <input type="text" name="fullName" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <input type="tel" name="phone" placeholder="+91XXXXXXXXXX">
+      <input type="file" name="profileImage">
+      <input type="date" name="dob">
+
+      <label><input type="checkbox" name="termsAccepted" value="true" required> Accept Terms</label>
+
+      <button type="submit">Sign Up</button>
+    </form>
+    <a href="index.html">Already have an account? Login</a>
+  </div>
+</body>
+</html>
